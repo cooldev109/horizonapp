@@ -1,0 +1,714 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "googleCloud": "Google Cloud",
+    "aws": "AWS",
+    "about": "About",
+    "partners": "Partners",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "headline": "Your Cloud. Our Expertise.",
+    "subheadline": "We help businesses migrate, optimize, and scale on Google Cloud and AWS. As certified cloud partners, we deliver enterprise-grade solutions with security at the core.",
+    "cta1": "Get a Free Consultation",
+    "cta2": "Explore Our Services",
+    "partnerBadge1": "Google Cloud Partner",
+    "partnerBadge2": "AWS Partner"
+  },
+  "trust": {
+    "label": "Trusted by innovative companies worldwide",
+    "metric1": "Google Cloud Partner",
+    "metric2": "AWS Certified",
+    "metric3": "50+ Projects Delivered",
+    "metric4": "24/7 Support"
+  },
+  "services": {
+    "title": "What We Do",
+    "subtitle": "End-to-end cloud solutions tailored to your business",
+    "tabs": {
+      "migration": {
+        "title": "Cloud Migration",
+        "description": "Seamlessly migrate your workloads to Google Cloud or AWS with zero downtime. We handle assessment, planning, execution, and validation to ensure a smooth transition.",
+        "cta": "Start Your Migration"
+      },
+      "infrastructure": {
+        "title": "Cloud Infrastructure",
+        "description": "Design and deploy scalable, resilient cloud infrastructure. From virtual machines to Kubernetes clusters, we architect solutions that grow with your business.",
+        "cta": "Build Your Infrastructure"
+      },
+      "devops": {
+        "title": "DevOps & CI/CD",
+        "description": "Accelerate your development lifecycle with automated pipelines, containerization, and infrastructure as code. Ship faster, break less.",
+        "cta": "Automate Your Pipeline"
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Protect your digital assets with comprehensive security solutions. From threat detection to compliance, we keep your cloud environment secure.",
+        "cta": "Secure Your Cloud"
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "description": "Leverage the power of AI and machine learning on Google Cloud and AWS. From data analytics to predictive models, we turn your data into insights.",
+        "cta": "Explore AI Solutions"
+      },
+      "managed": {
+        "title": "Managed Services",
+        "description": "Let us manage your cloud environment so you can focus on your business. 24/7 monitoring, optimization, and support.",
+        "cta": "Get Managed Support"
+      }
+    }
+  },
+  "googleCloud": {
+    "badge": "Google Cloud Partner",
+    "title": "Google Cloud Solutions",
+    "description": "As a Google Cloud Partner, we bring certified expertise to every project. From Compute Engine to BigQuery, we help you leverage the full power of Google's cloud platform.",
+    "cta": "Explore Google Cloud Services",
+    "services": {
+      "compute": { "name": "Compute Engine", "desc": "Scalable virtual machines for any workload" },
+      "gke": { "name": "Google Kubernetes Engine", "desc": "Managed Kubernetes for containerized apps" },
+      "bigquery": { "name": "BigQuery", "desc": "Serverless data warehouse for analytics" },
+      "cloudrun": { "name": "Cloud Run", "desc": "Fully managed serverless platform" },
+      "storage": { "name": "Cloud Storage", "desc": "Secure and durable object storage" },
+      "aiplatform": { "name": "Cloud AI Platform", "desc": "ML tools and pre-trained models" }
+    }
+  },
+  "aws": {
+    "badge": "AWS Partner",
+    "title": "Amazon Web Services Solutions",
+    "description": "We deliver comprehensive AWS solutions to power your digital transformation. From compute to AI, we architect and manage your AWS environment for peak performance.",
+    "cta": "Explore AWS Services",
+    "services": {
+      "ec2": { "name": "Amazon EC2", "desc": "Secure, resizable compute capacity" },
+      "lambda": { "name": "AWS Lambda", "desc": "Run code without thinking about servers" },
+      "s3": { "name": "Amazon S3", "desc": "Scalable storage in the cloud" },
+      "rds": { "name": "Amazon RDS", "desc": "Managed relational database service" },
+      "eks": { "name": "Amazon EKS", "desc": "Managed Kubernetes on AWS" },
+      "sagemaker": { "name": "Amazon SageMaker", "desc": "Build, train, and deploy ML models" }
+    }
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "subtitle": "A proven methodology for cloud success",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "We audit your current infrastructure, identify pain points, and define your cloud goals. Through stakeholder interviews and technical assessments, we build a complete picture of your needs."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "We design your cloud solution with detailed architecture diagrams, migration roadmaps, and security frameworks. Every solution is tailored to your specific requirements and budget."
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "We execute the migration and deployment with minimal disruption. Our team handles infrastructure provisioning, data migration, testing, and validation to ensure everything works flawlessly."
+      },
+      "optimize": {
+        "title": "Optimize & Scale",
+        "description": "We continuously monitor, optimize costs, and scale your cloud environment. With 24/7 support and proactive management, your infrastructure stays performant and cost-effective."
+      }
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose CloudsHorizon?",
+    "cards": {
+      "expertise": {
+        "metric": "Certified Experts",
+        "description": "Our team holds certifications across Google Cloud and AWS, bringing deep expertise to every engagement."
+      },
+      "customization": {
+        "metric": "Tailored Solutions",
+        "description": "No cookie-cutter approaches. Every solution is custom-designed to meet your specific business needs and goals."
+      },
+      "security": {
+        "metric": "Enterprise Security",
+        "description": "We implement industry-leading security measures and compliance frameworks to protect your data and operations."
+      },
+      "support": {
+        "metric": "24/7 Support",
+        "description": "We don't just build and leave. Our team provides continuous monitoring, optimization, and technical support."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Cloud Journey?",
+    "subtitle": "Let's discuss how we can help your business leverage the full power of cloud computing.",
+    "button1": "Schedule a Consultation",
+    "button2": "Call Us: +1 904-830-8747"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind? Let's talk about how we can help.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone (optional)",
+      "service": "Service Interested In",
+      "serviceOptions": {
+        "migration": "Cloud Migration",
+        "infrastructure": "Cloud Infrastructure",
+        "devops": "DevOps & CI/CD",
+        "security": "Cybersecurity",
+        "ai": "AI & Machine Learning",
+        "managed": "Managed Services",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "phone": "+1 904-830-8747",
+      "whatsapp": "+31 6 2948 5030",
+      "email": "amazabael@cloudshorizon.com",
+      "location": "United States / Colombia"
+    }
+  },
+  "footer": {
+    "description": "CloudsHorizon is an innovative IT cloud consulting firm specializing in Google Cloud and AWS solutions. We help businesses migrate, optimize, and scale in the cloud.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "connectTitle": "Connect",
+    "services": {
+      "migration": "Cloud Migration",
+      "infrastructure": "Cloud Infrastructure",
+      "devops": "DevOps & CI/CD",
+      "security": "Cybersecurity",
+      "ai": "AI & Machine Learning",
+      "managed": "Managed Services"
+    },
+    "company": {
+      "about": "About",
+      "partners": "Partners",
+      "contact": "Contact",
+      "careers": "Careers"
+    },
+    "copyright": "2026 CloudsHorizon Consulting. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "workspace": {
+    "nav": "Google Workspace",
+    "title": "Google Workspace Plans",
+    "subtitle": "Start working in the cloud with all of Google's collaborative applications. Choose the plan that fits your business.",
+    "formerly": "formerly G Suite",
+    "description": "With Google Workspace plans you get a simple, flexible, and collaborative environment. Professional email, video conferencing, cloud storage, and much more — all integrated and secure.",
+    "requestTrial": "Request Free Trial",
+    "hirePlan": "Get Started",
+    "contactAdvisor": "Need help choosing? Contact us",
+    "perMonth": "/user/month",
+    "startingFrom": "Starting from",
+    "contactUs": "Contact Us",
+    "plans": {
+      "starter": {
+        "name": "Business Starter",
+        "price": "$7",
+        "features": [
+          "Professional email with custom domain",
+          "Google Meet video calls up to 100 participants",
+          "30 GB cloud storage per user",
+          "Security and management controls",
+          "Google Gemini AI add-on available"
+        ]
+      },
+      "standard": {
+        "name": "Business Standard",
+        "price": "$14",
+        "features": [
+          "Professional email with custom domain",
+          "Google Meet video calls up to 150 participants + recording",
+          "2 TB cloud storage per user",
+          "Enhanced security controls",
+          "Google Gemini AI add-on available"
+        ]
+      },
+      "plus": {
+        "name": "Business Plus",
+        "price": "$22",
+        "features": [
+          "Professional email with eDiscovery & retention",
+          "Google Meet up to 500 participants + recording + attendance tracking",
+          "5 TB cloud storage per user",
+          "Advanced security, Vault, endpoint management",
+          "Google Gemini AI add-on available"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "features": [
+          "Professional email with S/MIME encryption",
+          "Google Meet up to 1,000 participants + live streaming",
+          "5 TB+ expandable storage per user",
+          "Advanced security, DLP, data regions, Vault",
+          "Google Gemini AI add-on available"
+        ]
+      }
+    },
+    "exclusive": {
+      "title": "CloudsHorizon Exclusive Benefits",
+      "items": [
+        "Admin training included",
+        "Managed account & data migration",
+        "Dedicated support team",
+        "Premium support available"
+      ]
+    },
+    "apps": {
+      "title": "Included Applications",
+      "gmail": {
+        "name": "Gmail",
+        "desc": "Professional email for your company. 100% secure, integrated with all Workspace apps."
+      },
+      "calendar": {
+        "name": "Google Calendar",
+        "desc": "Designed for team collaboration. Schedule meetings and access from any device."
+      },
+      "drive": {
+        "name": "Google Drive",
+        "desc": "Access, store, and share files securely from one location."
+      },
+      "meet": {
+        "name": "Google Meet",
+        "desc": "Enterprise-grade video conferencing integrated into Google's secure infrastructure."
+      },
+      "admin": {
+        "name": "Admin Console",
+        "desc": "Add users, manage devices, and configure security — all from one place."
+      }
+    },
+    "whyWorkspace": {
+      "title": "Why Your Company Needs Google Workspace",
+      "stats": {
+        "revenue": { "value": "1.5%", "label": "average revenue increase" },
+        "roi": { "value": "331%", "label": "return on investment" },
+        "gdpr": { "value": "95%", "label": "GDPR compliance risk reduction" },
+        "tickets": { "value": "20%", "label": "fewer support tickets" }
+      },
+      "benefits": [
+        "Professional email with your company domain",
+        "Enterprise-grade security and compliance",
+        "Real-time team collaboration",
+        "Cloud infrastructure — work from anywhere"
+      ]
+    },
+    "whyPartner": {
+      "title": "Why Work with a Google Cloud Partner?",
+      "items": [
+        "Personalized consulting based on your industry and company needs",
+        "Managed migration from your current platform — zero data loss",
+        "Google Workspace experts available for onboarding and training",
+        "Training and support included in the first year",
+        "Access to exclusive partner pricing and promotions"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is a domain and how do I get one?",
+          "a": "You need a domain for professional email (e.g., you@company.com). You can purchase one yourself or we can manage it for you."
+        },
+        {
+          "q": "What is a license/user?",
+          "a": "Each employee who uses Google Workspace needs their own license. The number of licenses determines your monthly cost."
+        },
+        {
+          "q": "Which Workspace plan do I need?",
+          "a": "It depends on your company's needs — storage, video conferencing capacity, and security requirements. Contact us for a free consultation."
+        },
+        {
+          "q": "Can I migrate data from my current email provider?",
+          "a": "Yes! We handle the complete migration process from any platform (Microsoft 365, Yahoo, etc.) to Google Workspace with zero data loss."
+        },
+        {
+          "q": "Are plans billed monthly or annually?",
+          "a": "Google Workspace can be paid monthly or annually. Annual plans offer better pricing. Both require an annual commitment."
+        },
+        {
+          "q": "Is there a free trial available?",
+          "a": "Yes, Google offers a 14-day free trial for all Business plans. Contact us to set up your trial."
+        }
+      ]
+    }
+  },
+  "servicePages": {
+    "backToHome": "Back to Home",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "whyChoose": "Why Choose CloudsHorizon?",
+    "whyChooseDesc": "As certified Google Cloud and AWS partners, we bring deep expertise and proven methodologies to every engagement.",
+    "features": "Key Features",
+    "useCases": "Use Cases",
+    "howWeHelp": "How We Help",
+    "readyToStart": "Ready to Get Started?",
+    "readyToStartDesc": "Contact us for a free consultation and let our experts help you find the right solution.",
+    "googleCloud": {
+      "compute": {
+        "title": "Google Compute Engine",
+        "subtitle": "Scalable, high-performance virtual machines on Google Cloud",
+        "description": "Google Compute Engine delivers configurable virtual machines running on Google's infrastructure. With per-second billing, right-sizing recommendations, and sustained use discounts, you get optimal performance at the best price.",
+        "features": [
+          "Custom and predefined machine types for any workload",
+          "Per-second billing with sustained use discounts",
+          "Live migration for zero-downtime maintenance",
+          "Global load balancing and auto-scaling",
+          "Preemptible and Spot VMs for cost savings",
+          "Sole-tenant nodes for compliance requirements"
+        ],
+        "useCases": [
+          "Enterprise application hosting",
+          "High-performance computing (HPC)",
+          "Large-scale batch processing",
+          "Game server infrastructure",
+          "Development and testing environments"
+        ]
+      },
+      "gke": {
+        "title": "Google Kubernetes Engine",
+        "subtitle": "Managed Kubernetes for containerized applications",
+        "description": "GKE provides a managed environment for deploying, managing, and scaling containerized applications using Google infrastructure. It eliminates the operational overhead of managing Kubernetes clusters.",
+        "features": [
+          "Fully managed Kubernetes control plane",
+          "Auto-scaling and auto-repair of nodes",
+          "Integrated logging and monitoring with Cloud Operations",
+          "Multi-cluster management with Anthos",
+          "Built-in security with Shielded GKE Nodes",
+          "Serverless containers with GKE Autopilot"
+        ],
+        "useCases": [
+          "Microservices architecture deployment",
+          "CI/CD pipeline automation",
+          "Hybrid and multi-cloud applications",
+          "Machine learning model serving",
+          "Stateful application management"
+        ]
+      },
+      "bigquery": {
+        "title": "Google BigQuery",
+        "subtitle": "Serverless, highly scalable data warehouse",
+        "description": "BigQuery is a fully managed, serverless data warehouse that enables super-fast SQL queries using the processing power of Google's infrastructure. Analyze petabytes of data with zero infrastructure management.",
+        "features": [
+          "Serverless architecture — no infrastructure to manage",
+          "Real-time analytics with streaming inserts",
+          "Built-in machine learning with BigQuery ML",
+          "Automatic data encryption at rest and in transit",
+          "Flexible pricing: on-demand or flat-rate",
+          "Federated queries across multiple data sources"
+        ],
+        "useCases": [
+          "Business intelligence and reporting",
+          "Real-time analytics dashboards",
+          "Data lake analytics",
+          "Predictive analytics with ML",
+          "Log analytics and security monitoring"
+        ]
+      },
+      "cloudrun": {
+        "title": "Google Cloud Run",
+        "subtitle": "Fully managed serverless container platform",
+        "description": "Cloud Run lets you run stateless containers that are automatically scaled based on incoming requests. Pay only for the resources you use, with no minimum fees.",
+        "features": [
+          "Run any language, any library, any binary",
+          "Automatic scaling from zero to thousands",
+          "Pay only for actual usage (per 100ms)",
+          "Built-in HTTPS endpoints and custom domains",
+          "Integrated with Cloud Build for CI/CD",
+          "Traffic splitting for gradual rollouts"
+        ],
+        "useCases": [
+          "REST APIs and microservices",
+          "Web applications and backends",
+          "Event-driven processing",
+          "Data transformation pipelines",
+          "Scheduled batch jobs"
+        ]
+      },
+      "storage": {
+        "title": "Google Cloud Storage",
+        "subtitle": "Secure and durable object storage",
+        "description": "Cloud Storage is a unified object storage service offering high availability and performance. Store and retrieve any amount of data at any time, with multiple storage classes to optimize cost.",
+        "features": [
+          "99.999999999% (11 nines) durability",
+          "Multiple storage classes (Standard, Nearline, Coldline, Archive)",
+          "Automatic data encryption and IAM access control",
+          "Object versioning and lifecycle management",
+          "Global edge-caching with Cloud CDN integration",
+          "Transfer services for large-scale data migration"
+        ],
+        "useCases": [
+          "Content delivery and media storage",
+          "Backup and disaster recovery",
+          "Data archival and compliance",
+          "Data lake storage for analytics",
+          "Static website hosting"
+        ]
+      },
+      "aiplatform": {
+        "title": "Google Cloud AI Platform",
+        "subtitle": "End-to-end machine learning tools and pre-trained models",
+        "description": "Cloud AI Platform provides a suite of tools for building, deploying, and scaling ML models. From AutoML for no-code solutions to custom training with TensorFlow and PyTorch.",
+        "features": [
+          "AutoML for no-code model training",
+          "Custom training with TensorFlow, PyTorch, and scikit-learn",
+          "Vertex AI Pipelines for MLOps automation",
+          "Pre-trained APIs for vision, language, and speech",
+          "Model monitoring and explainability tools",
+          "Feature Store for centralized feature management"
+        ],
+        "useCases": [
+          "Image and video analysis",
+          "Natural language processing",
+          "Demand forecasting and recommendation engines",
+          "Fraud detection and anomaly detection",
+          "Document AI and intelligent automation"
+        ]
+      }
+    },
+    "aws": {
+      "ec2": {
+        "title": "Amazon EC2",
+        "subtitle": "Secure, resizable compute capacity in the cloud",
+        "description": "Amazon EC2 provides scalable computing capacity in the AWS Cloud. Launch virtual servers, configure security and networking, and manage storage with complete control over your computing resources.",
+        "features": [
+          "Wide selection of instance types optimized for different use cases",
+          "Multiple purchasing options: On-Demand, Reserved, Spot",
+          "Elastic Load Balancing and Auto Scaling",
+          "Amazon Machine Images (AMI) for quick deployment",
+          "Enhanced networking and placement groups",
+          "Integration with AWS security and monitoring services"
+        ],
+        "useCases": [
+          "Web and application hosting",
+          "Batch processing and HPC workloads",
+          "Development and testing environments",
+          "Enterprise applications (SAP, Oracle)",
+          "Gaming and streaming services"
+        ]
+      },
+      "lambda": {
+        "title": "AWS Lambda",
+        "subtitle": "Run code without thinking about servers",
+        "description": "AWS Lambda lets you run code without provisioning or managing servers. Just upload your code and Lambda takes care of everything required to run and scale it with high availability.",
+        "features": [
+          "Automatic scaling from zero to thousands of concurrent executions",
+          "Pay only for compute time consumed (per millisecond)",
+          "Support for multiple languages: Python, Node.js, Java, Go, and more",
+          "Built-in integration with 200+ AWS services",
+          "Lambda@Edge for global content customization",
+          "Provisioned concurrency for predictable latency"
+        ],
+        "useCases": [
+          "Real-time file processing and ETL",
+          "API backends with API Gateway",
+          "Event-driven architectures",
+          "Chatbots and voice assistants",
+          "Scheduled tasks and automation"
+        ]
+      },
+      "s3": {
+        "title": "Amazon S3",
+        "subtitle": "Scalable, durable object storage in the cloud",
+        "description": "Amazon S3 is an object storage service offering industry-leading scalability, data availability, security, and performance. Store and retrieve any amount of data from anywhere.",
+        "features": [
+          "99.999999999% (11 nines) durability",
+          "Multiple storage classes for cost optimization",
+          "S3 Intelligent-Tiering for automatic cost savings",
+          "Server-side encryption and access control",
+          "S3 Object Lock for compliance and retention",
+          "S3 Transfer Acceleration for fast uploads"
+        ],
+        "useCases": [
+          "Data lakes and big data analytics",
+          "Backup, archive, and disaster recovery",
+          "Static website hosting",
+          "Content distribution and media storage",
+          "Software delivery and log management"
+        ]
+      },
+      "rds": {
+        "title": "Amazon RDS",
+        "subtitle": "Managed relational database service",
+        "description": "Amazon RDS makes it easy to set up, operate, and scale relational databases in the cloud. It provides cost-efficient, resizable capacity while automating time-consuming administration tasks.",
+        "features": [
+          "Support for MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Aurora",
+          "Automated backups, patching, and recovery",
+          "Multi-AZ deployments for high availability",
+          "Read Replicas for improved performance",
+          "Encryption at rest and in transit",
+          "Performance Insights for database monitoring"
+        ],
+        "useCases": [
+          "Web and mobile application backends",
+          "E-commerce platforms",
+          "SaaS applications",
+          "Enterprise resource planning (ERP)",
+          "Content management systems"
+        ]
+      },
+      "eks": {
+        "title": "Amazon EKS",
+        "subtitle": "Managed Kubernetes on AWS",
+        "description": "Amazon EKS is a managed service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane or nodes.",
+        "features": [
+          "Fully managed Kubernetes control plane",
+          "Seamless integration with AWS services (ALB, IAM, VPC)",
+          "EKS Anywhere for on-premises Kubernetes",
+          "Fargate integration for serverless containers",
+          "Add-ons ecosystem for logging, monitoring, and service mesh",
+          "Multi-cluster management and federation"
+        ],
+        "useCases": [
+          "Microservices and container orchestration",
+          "Hybrid cloud deployments",
+          "Machine learning workloads",
+          "Batch processing and job scheduling",
+          "CI/CD and DevOps automation"
+        ]
+      },
+      "sagemaker": {
+        "title": "Amazon SageMaker",
+        "subtitle": "Build, train, and deploy machine learning models",
+        "description": "Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.",
+        "features": [
+          "SageMaker Studio: integrated ML development environment",
+          "Built-in algorithms and framework support",
+          "Automatic model tuning with hyperparameter optimization",
+          "SageMaker Pipelines for MLOps workflows",
+          "Real-time and batch inference endpoints",
+          "Ground Truth for data labeling"
+        ],
+        "useCases": [
+          "Predictive analytics and forecasting",
+          "Natural language processing",
+          "Computer vision and image recognition",
+          "Fraud detection and risk assessment",
+          "Personalization and recommendation systems"
+        ]
+      }
+    },
+    "services": {
+      "migration": {
+        "title": "Cloud Migration Services",
+        "subtitle": "Seamlessly migrate your workloads to the cloud with zero downtime",
+        "description": "Our cloud migration experts help you move your applications, data, and infrastructure to Google Cloud or AWS. We follow a proven methodology that ensures zero downtime and minimal risk.",
+        "features": [
+          "Comprehensive assessment of current infrastructure",
+          "Detailed migration roadmap and timeline",
+          "Application refactoring and modernization",
+          "Data migration with zero loss guarantee",
+          "Testing and validation at every stage",
+          "Post-migration optimization and support"
+        ],
+        "useCases": [
+          "On-premises to cloud migration",
+          "Data center consolidation",
+          "Cloud-to-cloud migration",
+          "Legacy application modernization",
+          "Database migration and replatforming"
+        ]
+      },
+      "infrastructure": {
+        "title": "Cloud Infrastructure Design",
+        "subtitle": "Scalable, resilient infrastructure that grows with your business",
+        "description": "We design and deploy cloud infrastructure that is secure, scalable, and cost-optimized. From networking and compute to storage and databases, we architect solutions built for performance.",
+        "features": [
+          "Infrastructure as Code (Terraform, Pulumi)",
+          "Multi-region and multi-cloud architecture",
+          "Network design with VPCs, subnets, and firewalls",
+          "Cost optimization and right-sizing",
+          "Disaster recovery and business continuity planning",
+          "Performance monitoring and alerting"
+        ],
+        "useCases": [
+          "Enterprise cloud platform setup",
+          "Multi-tier application architecture",
+          "High-availability infrastructure",
+          "Compliance-ready environments (HIPAA, SOC 2)",
+          "Hybrid cloud connectivity"
+        ]
+      },
+      "devops": {
+        "title": "DevOps & CI/CD",
+        "subtitle": "Accelerate your development lifecycle and ship faster",
+        "description": "We implement DevOps best practices and CI/CD pipelines that automate your software delivery process. From code commit to production deployment, we help you ship faster with fewer errors.",
+        "features": [
+          "CI/CD pipeline design and implementation",
+          "Container orchestration with Kubernetes",
+          "Infrastructure as Code automation",
+          "GitOps workflows and version control",
+          "Automated testing and quality gates",
+          "Monitoring, logging, and observability"
+        ],
+        "useCases": [
+          "Automated software deployment",
+          "Microservices development workflows",
+          "Multi-environment management (dev, staging, prod)",
+          "Release management and rollback strategies",
+          "Platform engineering and developer experience"
+        ]
+      },
+      "security": {
+        "title": "Cloud Cybersecurity",
+        "subtitle": "Protect your cloud environment with enterprise-grade security",
+        "description": "We implement comprehensive security solutions to protect your cloud infrastructure, applications, and data. From threat detection to compliance, we keep your business secure.",
+        "features": [
+          "Security assessment and penetration testing",
+          "Identity and access management (IAM)",
+          "Network security and firewall configuration",
+          "Data encryption at rest and in transit",
+          "Compliance frameworks (SOC 2, HIPAA, GDPR, ISO 27001)",
+          "Security monitoring and incident response"
+        ],
+        "useCases": [
+          "Cloud security posture management",
+          "Zero-trust network architecture",
+          "Regulatory compliance implementation",
+          "Threat detection and response",
+          "Security automation and orchestration"
+        ]
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "subtitle": "Transform your data into actionable insights",
+        "description": "We help you leverage AI and machine learning services on Google Cloud and AWS. From data analytics to predictive models, we turn your data into a competitive advantage.",
+        "features": [
+          "Custom ML model development and training",
+          "Pre-built AI APIs for vision, language, and speech",
+          "Data pipeline design and ETL automation",
+          "MLOps and model lifecycle management",
+          "Business intelligence and analytics dashboards",
+          "Generative AI integration and consulting"
+        ],
+        "useCases": [
+          "Predictive analytics and demand forecasting",
+          "Customer behavior analysis",
+          "Document processing and automation",
+          "Chatbots and conversational AI",
+          "Image and video analysis"
+        ]
+      },
+      "managed": {
+        "title": "Managed Cloud Services",
+        "subtitle": "Let us manage your cloud so you can focus on your business",
+        "description": "Our managed services team provides 24/7 monitoring, optimization, and support for your cloud environment. We handle the operations so you can focus on growing your business.",
+        "features": [
+          "24/7 infrastructure monitoring and alerting",
+          "Cost optimization and budget management",
+          "Patch management and security updates",
+          "Performance tuning and scaling",
+          "Backup management and disaster recovery",
+          "Monthly reporting and recommendations"
+        ],
+        "useCases": [
+          "Ongoing cloud operations management",
+          "Cost optimization programs",
+          "SLA-driven infrastructure support",
+          "After-hours and weekend coverage",
+          "Cloud environment health checks"
+        ]
+      }
+    }
+  }
+}
