@@ -401,7 +401,7 @@ function WorkspaceCTA() {
             <ArrowRight size={18} />
           </a>
           <a
-            href="https://wa.me/31629485030"
+            href="https://wa.me/573162948503"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-xl hover:bg-white/10 transition-all"

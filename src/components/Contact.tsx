@@ -156,7 +156,7 @@ export default function Contact() {
                 icon={MessageCircle}
                 label="WhatsApp"
                 value={t("contact.info.whatsapp")}
-                href="https://wa.me/31629485030"
+                href="https://wa.me/573162948503"
               />
               <ContactCard
                 icon={Mail}
