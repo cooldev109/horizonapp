@@ -85,7 +85,7 @@ export default function GoogleCloudSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-xl p-4 flex items-center gap-3 border border-border">
+            <div className="hidden sm:flex absolute -bottom-4 -left-4 bg-white rounded-xl shadow-xl p-4 items-center gap-3 border border-border">
               <div className="w-12 h-12 rounded-lg bg-gcp-blue/10 flex items-center justify-center">
                 <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
                   <path d="M12.19 5.88l2.75-2.75.14-.9A9.55 9.55 0 0 0 2.32 8.9l.8-.08 3.6-.6s.18-.3.28-.28a5.94 5.94 0 0 1 5.19-2.06z" fill="#EA4335"/>

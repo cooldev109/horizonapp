@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useI18n();
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-navy">
+    <section id="home" className="relative min-h-svh flex items-center overflow-hidden bg-navy">
       {/* Background video */}
       <div className="absolute inset-0">
         <video
@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-amber/10 rounded-full blur-3xl orb-1" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 sm:py-32">
         <div className="max-w-2xl">
           {/* Partner badges */}
           <div className="flex flex-wrap items-center gap-3 mb-8 animate-fade-in-up opacity-0 delay-100">
@@ -73,12 +73,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center pt-2">
-            <div className="w-1.5 h-3 bg-white/50 rounded-full" />
-          </div>
-        </div>
       </div>
     </section>
   );

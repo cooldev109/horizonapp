@@ -40,7 +40,7 @@ export default function AWSSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -right-4 bg-navy-light rounded-xl shadow-xl p-4 flex items-center gap-3 border border-white/10">
+            <div className="hidden sm:flex absolute -bottom-4 -right-4 bg-navy-light rounded-xl shadow-xl p-4 items-center gap-3 border border-white/10">
               <div className="w-12 h-12 rounded-lg bg-aws-orange/20 flex items-center justify-center">
                 <svg viewBox="0 0 40 24" width="32" height="20">
                   <text x="2" y="18" fontFamily="Arial" fontSize="18" fontWeight="700" fill="#FF9900">aws</text>

@@ -22,6 +22,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -29,6 +31,32 @@ body {
   color: var(--color-text);
   background: #ffffff;
   overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* iOS: prevent zoom on input focus (font-size must be >= 16px) */
+input,
+select,
+textarea {
+  font-size: max(16px, 1em);
+}
+
+/* Safe area utilities for iOS notch / Dynamic Island / home indicator */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.pl-safe {
+  padding-left: env(safe-area-inset-left, 0px);
+}
+.pr-safe {
+  padding-right: env(safe-area-inset-right, 0px);
+}
+/* Bottom positioning that accounts for iOS home indicator */
+.bottom-safe-6 {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
 }
 
 /* Hero animated grid background */
@@ -266,6 +294,20 @@ body {
 .gradient-line-animated {
   background-size: 200% 200%;
   animation: gradientSlide 3s ease infinite;
+}
+
+/* iOS smooth horizontal scroll for tab bars */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+/* Hide scrollbar on mobile tab bars */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
 
 /* Scrollbar */

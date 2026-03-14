@@ -67,133 +67,130 @@ export default function Navbar() {
     "px-3 py-2 text-sm font-medium rounded-lg transition-colors text-navy-light hover:text-blue hover:bg-blue/5";
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-border"
-          : "bg-white/95 backdrop-blur-md"
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <a href="/" className="flex items-center shrink-0">
-            <Image
-              src="/images/logo.png"
-              alt="CloudsHorizon Consulting"
-              width={180}
-              height={50}
-              className="h-12 w-auto"
-              priority
-            />
-          </a>
+    <>
+      <nav
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          scrolled
+            ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-border"
+            : "bg-white/95 backdrop-blur-md"
+        }`}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <a href="/" className="flex items-center shrink-0">
+              <Image
+                src="/images/logo.png"
+                alt="CloudsHorizon Consulting"
+                width={180}
+                height={50}
+                className="h-12 w-auto"
+                priority
+              />
+            </a>
 
-          {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-0.5">
-            {/* Home */}
-            {simpleLinks.map((link) => (
-              <a key={link.href} href={link.href} className={linkClass()}>
-                {link.label}
-              </a>
-            ))}
+            {/* Desktop Nav */}
+            <div className="hidden lg:flex items-center gap-0.5">
+              {simpleLinks.map((link) => (
+                <a key={link.href} href={link.href} className={linkClass()}>
+                  {link.label}
+                </a>
+              ))}
 
-            {/* Dropdown menus: Google Cloud, AWS, Services */}
-            {dropdownMenus.map((menu) => (
-              <div
-                key={menu.key}
-                className="relative"
-                onMouseEnter={() => setOpenDropdown(menu.key)}
-                onMouseLeave={() => setOpenDropdown(null)}
-              >
-                <button
-                  onClick={() => setOpenDropdown(openDropdown === menu.key ? null : menu.key)}
-                  className={`${linkClass()} flex items-center gap-1`}
-                >
-                  {menu.label}
-                  <ChevronDown size={14} className={`transition-transform duration-200 ${openDropdown === menu.key ? "rotate-180" : ""}`} />
-                </button>
-
-                {/* Dropdown */}
+              {dropdownMenus.map((menu) => (
                 <div
-                  className={`absolute top-full left-0 pt-2 w-60 transition-all duration-200 ${
-                    openDropdown === menu.key
-                      ? "opacity-100 translate-y-0 pointer-events-auto"
-                      : "opacity-0 -translate-y-2 pointer-events-none"
-                  }`}
+                  key={menu.key}
+                  className="relative"
+                  onMouseEnter={() => setOpenDropdown(menu.key)}
+                  onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  <div className="bg-white rounded-xl shadow-xl border border-border overflow-hidden">
-                    {/* Accent bar at top */}
-                    <div className={`h-1 ${menu.accent}`} />
-                    <div className="py-2">
-                      {menu.items.map((item) => (
-                        <a
-                          key={item.label}
-                          href={item.href}
-                          className={`block px-4 py-2.5 text-sm transition-colors ${
-                            item.highlight
-                              ? "text-gcp-blue font-semibold hover:bg-gcp-blue/10 border-b border-border mb-1"
-                              : "text-navy-light hover:bg-blue/5 hover:text-blue"
-                          }`}
-                        >
-                          {item.label}
-                          {item.highlight && <span className="ml-1 text-[10px] text-gcp-green font-bold align-super">NEW</span>}
-                        </a>
-                      ))}
+                  <button
+                    onClick={() => setOpenDropdown(openDropdown === menu.key ? null : menu.key)}
+                    className={`${linkClass()} flex items-center gap-1`}
+                  >
+                    {menu.label}
+                    <ChevronDown size={14} className={`transition-transform duration-200 ${openDropdown === menu.key ? "rotate-180" : ""}`} />
+                  </button>
+
+                  <div
+                    className={`absolute top-full left-0 pt-2 w-60 transition-all duration-200 ${
+                      openDropdown === menu.key
+                        ? "opacity-100 translate-y-0 pointer-events-auto"
+                        : "opacity-0 -translate-y-2 pointer-events-none"
+                    }`}
+                  >
+                    <div className="bg-white rounded-xl shadow-xl border border-border overflow-hidden">
+                      <div className={`h-1 ${menu.accent}`} />
+                      <div className="py-2">
+                        {menu.items.map((item) => (
+                          <a
+                            key={item.label}
+                            href={item.href}
+                            className={`block px-4 py-2.5 text-sm transition-colors ${
+                              item.highlight
+                                ? "text-gcp-blue font-semibold hover:bg-gcp-blue/10 border-b border-border mb-1"
+                                : "text-navy-light hover:bg-blue/5 hover:text-blue"
+                            }`}
+                          >
+                            {item.label}
+                            {item.highlight && <span className="ml-1 text-[10px] text-gcp-green font-bold align-super">NEW</span>}
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
 
-            {/* Partners, Contact */}
-            {rightLinks.map((link) => (
-              <a key={link.href} href={link.href} className={linkClass()}>
-                {link.label}
+              {rightLinks.map((link) => (
+                <a key={link.href} href={link.href} className={linkClass()}>
+                  {link.label}
+                </a>
+              ))}
+            </div>
+
+            {/* Right side: Language + CTA */}
+            <div className="hidden lg:flex items-center gap-3">
+              <button
+                onClick={() => setLocale(locale === "en" ? "es" : "en")}
+                className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors text-navy-light hover:bg-blue/5"
+              >
+                <Globe size={16} />
+                {locale === "en" ? "ES" : "EN"}
+              </button>
+              <a
+                href="/#contact"
+                className="px-5 py-2.5 bg-blue text-white text-sm font-semibold rounded-lg hover:bg-blue-light transition-colors shadow-lg shadow-blue/25"
+              >
+                {t("nav.getQuote")}
               </a>
-            ))}
-          </div>
+            </div>
 
-          {/* Right side: Language + CTA */}
-          <div className="hidden lg:flex items-center gap-3">
-            <button
-              onClick={() => setLocale(locale === "en" ? "es" : "en")}
-              className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors text-navy-light hover:bg-blue/5"
-            >
-              <Globe size={16} />
-              {locale === "en" ? "ES" : "EN"}
-            </button>
-            <a
-              href="/#contact"
-              className="px-5 py-2.5 bg-blue text-white text-sm font-semibold rounded-lg hover:bg-blue-light transition-colors shadow-lg shadow-blue/25"
-            >
-              {t("nav.getQuote")}
-            </a>
-          </div>
-
-          {/* Mobile toggle */}
-          <div className="lg:hidden flex items-center gap-2">
-            <button
-              onClick={() => setLocale(locale === "en" ? "es" : "en")}
-              className="p-2 rounded-lg text-navy"
-            >
-              <Globe size={20} />
-            </button>
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="p-2 rounded-lg text-navy"
-            >
-              {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            {/* Mobile toggle */}
+            <div className="lg:hidden flex items-center gap-1">
+              <button
+                onClick={() => setLocale(locale === "en" ? "es" : "en")}
+                className="p-2.5 rounded-lg text-navy min-w-[44px] min-h-[44px] flex items-center justify-center"
+              >
+                <Globe size={20} />
+              </button>
+              <button
+                onClick={() => setMobileOpen(!mobileOpen)}
+                className="p-2.5 rounded-lg text-navy min-w-[44px] min-h-[44px] flex items-center justify-center"
+                aria-expanded={mobileOpen}
+                aria-label="Toggle navigation menu"
+              >
+                {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — OUTSIDE <nav> to avoid stacking context conflicts on iOS */}
       <div
-        className={`lg:hidden fixed inset-0 top-20 bg-white z-40 transition-all duration-300 overflow-y-auto ${
-          mobileOpen
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+        className={`lg:hidden fixed inset-x-0 top-20 bottom-0 bg-white z-40 overflow-y-auto pb-safe transition-transform duration-300 ease-in-out ${
+          mobileOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         <div className="p-6 space-y-1">
@@ -206,7 +203,7 @@ export default function Navbar() {
             {t("nav.home")}
           </a>
 
-          {/* Dropdown sections */}
+          {/* Expandable sections */}
           {dropdownMenus.map((menu) => (
             <div key={menu.key}>
               <button
@@ -264,6 +261,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </nav>
+    </>
   );
 }

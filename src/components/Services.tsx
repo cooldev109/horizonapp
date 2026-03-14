@@ -84,7 +84,7 @@ export default function Services() {
         {/* Tabs + Content */}
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Tab buttons */}
-          <div className="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 lg:w-72 shrink-0">
+          <div className="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 lg:w-72 shrink-0 scroll-touch scrollbar-none">
             {tabKeys.map((key) => {
               const TabIcon = tabIcons[key];
               const isActive = activeTab === key;
